@@ -4,10 +4,10 @@
 }
 
 .container{
-    margin: 5% 10%;
-    /* background-color: aqua; */
-    border: 1px solid black;
-    width: 80%;
+    margin: 5% 5%;
+    background-color: rgba(218, 221, 221, 0.774);
+    border-radius: 25px;
+    width: 90%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -27,8 +27,8 @@
 
 
 .box{
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
     border: 1px;
     position: absolute;
     
@@ -36,7 +36,7 @@
 }
 
 .madara{
-    width: 300px;
+    height: 300px;
     
     position: relative;
     top: 15px;
@@ -51,5 +51,5 @@
         color: rgb(1, 25, 142);
         font-family:sans-serif;
         line-height: 1.5rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
